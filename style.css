@@ -85,7 +85,7 @@ h1{
     font-size: 14px;
 }
 
-.third-container{
+.recipie-container{
     width: 100%;
     display: flex;
     justify-content:space-between;
@@ -94,20 +94,32 @@ h1{
     padding: 50px;
 }
 
-.third-half-width{
+.recipie-half-width{
     width: 32%;
     padding: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
 }
 
-.third-half-width img{
+.recipie-half-width img{
     width: 90%;
     margin-bottom: 20px;
 }
 
-.third-half-width p{
+.recipie-half-width p{
     text-align: justify;
     font-size: 14px;
     margin: 15px 0px;
+}
+
+.recipie-social-container{
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    box-shadow: 10px 10px 40px gray;
+}
+.social-half-width{
+    padding: 60px;
 }
