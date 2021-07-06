@@ -75,7 +75,7 @@ h1{
     margin-bottom: 80px;
 }
 
-.cook-section{
+.cook-section, .clients-container{
     padding: 50px;
     text-align: center;
 }
@@ -119,7 +119,115 @@ h1{
     align-items: center;
     margin: 50px auto;
     box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
 }
 .social-half-width{
     padding: 60px;
 }
+
+input{
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+input[type="email"]{
+    background-color: #fff;
+    border-radius: 25px 0px 0px 25px;
+}
+input[type="button"]{
+    background-color:#EB2B11;
+    border-radius: 0px 25px 25px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.clients-container h2{
+    margin-top: 50px;
+}
+
+.clients-half-reviews{
+    width: 32%;
+}
+
+.clients-half-reviews p{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 30px 40px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.clients-details{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+}
+
+.clients-details img{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.clients-details h3{
+    text-align: center;
+}
+
+.apps-container{
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 0px 100px;
+    margin-bottom: 0px
+}
+
+.apps-half-width{
+    width: 50%;
+}
+
+.mobile-apps-img{
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+.get-apps p{
+   color: gray; 
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 18px;
+}
+
+.app-store-images{
+    padding: 20px 0px;
+}
+
+form{
+    display: flex;
+    justify-content:stretch;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer img{
+    width: 30%;
+    margin-left: 80px;
+}
+
+footer h1{
+    margin-left: 80px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
