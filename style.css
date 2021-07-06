@@ -150,14 +150,20 @@ input[type="button"]{
 
 .clients-half-reviews{
     width: 32%;
-}
-
-.clients-half-reviews p{
-    box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     padding: 30px 40px;
     font-size: 15px;
     text-align: justify;
+}
+
+.clients-bg-color1{
+    background-color: #F9F4EE;
+}
+.clients-bg-color2{
+    background-color: #F1F3E8;
+}
+.clients-bg-color3{
+    background-color: #F9F4EE;
 }
 
 .clients-details{
